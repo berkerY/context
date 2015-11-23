@@ -32,6 +32,7 @@ exports.facebook = {
     callbackURL: 'http://localhost:8080/auth/facebook/callback',
 };
 
+
 // google app config
 exports.google = {
     returnURL: 'http://localhost:8080/auth/google/return',
@@ -51,3 +52,5 @@ exports.linkedin = {
     consumerSecret: 'LINKEDIN_SECRET_KEY',
     callbackURL: 'http://localhost:8080/auth/linkedin/callback'
 };
+
+//test

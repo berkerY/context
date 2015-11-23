@@ -1,6 +1,5 @@
 node_modules/
 bower_components/
-/config.js
 public/fonts/
 logs/*
 .vagrant/
