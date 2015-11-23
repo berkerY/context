@@ -52,5 +52,3 @@ exports.linkedin = {
     consumerSecret: 'LINKEDIN_SECRET_KEY',
     callbackURL: 'http://localhost:8080/auth/linkedin/callback'
 };
-
-//test
