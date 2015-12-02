@@ -3,3 +3,4 @@ bower_components/
 public/fonts/
 logs/*
 .vagrant/
+*.log

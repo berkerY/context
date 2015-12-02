@@ -64,7 +64,9 @@
     "portfinder": "^0.2.1",
     "request": "^2.34.0",
     "string": "^1.8.1",
-    "ws": "^0.4.31"
+    "ws": "^0.4.31",
+    "mongoose-paginate": "^4.2.0",
+    "cache-manager": "^1.2.2"
   },
   "engines": {
     "node": ">=0.10"

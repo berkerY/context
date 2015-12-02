@@ -5,6 +5,7 @@ var Promise = require('bluebird');
 
 // db requires
 var mongoose = require('mongoose');
+var mongoosePaginate = require('mongoose-paginate');
 var Schema = mongoose.Schema;
 var Article;
 
@@ -80,6 +81,9 @@ articleSchema.statics.createNew = function(article) {
         });
     });
 };
+
+//pagination plugin for mongoose
+articleSchema.plugin(mongoosePaginate);
 
 // Model
 Article = mongoose.model('articles', articleSchema);
